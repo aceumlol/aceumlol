@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 278" width="460">
+ <defs>
+    <clipPath id="clip-cmd">
+      <rect x="174" y="36" height="18">
+        <animate attributeName="width"
+          values="0;12;24;36;48;60;72;84;96;96;96;0"
+          keyTimes="0;0.04;0.08;0.12;0.16;0.2;0.24;0.28;0.32;0.88;0.92;1"
+          dur="11s" repeatCount="indefinite" calcMode="discrete"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Cascadia Code', 'Fira Code', 'Courier New', monospace; }
+    .ui   { font-family: 'Segoe UI', Arial, sans-serif; }
+
+    .snap { animation: snaphide 11s steps(1) infinite; }
+    @keyframes snaphide {
+      0%,91%  { opacity: 1; }
+      92%,100%{ opacity: 0; }
+    }
+
+    .bio { animation: snapshow 11s steps(1) infinite; }
+    @keyframes snapshow {
+      0%,32%  { opacity: 0; }
+      33%,91% { opacity: 1; }
+      92%,100%{ opacity: 0; }
+    }
+
+    .cursor { animation: cur 11s steps(1) infinite; }
+    @keyframes cur {
+      0%  {opacity:1} 2%  {opacity:0} 4%  {opacity:1} 6%  {opacity:0}
+      8%  {opacity:1} 10% {opacity:0} 12% {opacity:1} 14% {opacity:0}
+      16% {opacity:1} 18% {opacity:0} 20% {opacity:1} 22% {opacity:0}
+      24% {opacity:1} 26% {opacity:0} 28% {opacity:1} 30% {opacity:0}
+      32% {opacity:1} 33%,100% {opacity:0}
+    }
+  </style>
+
+  <rect width="460" height="278" fill="#0C0C0C" rx="8"/>
+
+  <rect width="460" height="26" fill="#1F1F1F" rx="8"/>
+  <rect y="16" width="460" height="10" fill="#1F1F1F"/>
+
+  <rect x="0" y="4" width="140" height="22" fill="#0C0C0C" rx="4"/>
+  <rect x="0" y="4" width="140" height="2" fill="#C9594D"/>
+
+  <text x="12" y="20" class="mono" font-size="10" fill="#888">&#62;_</text>
+  <text x="27" y="20" class="ui" font-size="10" fill="#CCCCCC">PowerShell</text>
+
+  <text x="150" y="20" class="ui" font-size="13" fill="#666">+</text>
+
+  <text x="374" y="19" class="ui" font-size="12" fill="#CCCCCC" text-anchor="middle">&#8722;</text>
+  <text x="404" y="18" class="ui" font-size="9"  fill="#CCCCCC" text-anchor="middle">&#9633;</text>
+  <text x="432" y="19" class="ui" font-size="12" fill="#CCCCCC" text-anchor="middle">&#215;</text>
+
+  <text x="16" y="50" class="mono" font-size="13" fill="#C9594D">aceumlol@github</text>
+
+  <text x="174" y="50" class="mono snap" font-size="13" fill="#AAAAAA" clip-path="url(#clip-cmd)">: whoami</text>
+
+  <rect y="38" width="7" height="14" rx="1" fill="#C9594D" class="cursor">
+    <animate attributeName="x"
+      values="174;186;198;210;222;234;246;258;270;270;270;174"
+      keyTimes="0;0.04;0.08;0.12;0.16;0.2;0.24;0.28;0.32;0.88;0.91;1"
+      dur="11s" repeatCount="indefinite" calcMode="discrete"/>
+  </rect>
+
+  <line x1="16" y1="64" x2="444" y2="64" stroke="#333" stroke-width="1" class="bio"/>
+
+  <text x="16" y="88"  class="mono bio" font-size="13" fill="#CCCCCC">Self-taught <tspan fill="#C9594D">data analyst</tspan> turning</text>
+  <text x="16" y="106" class="mono bio" font-size="13" fill="#CCCCCC">raw chaos into clean insights.</text>
+  <text x="16" y="130" class="mono bio" font-size="13" fill="#CCCCCC">Currently leveling up into</text>
+  <text x="16" y="148" class="mono bio" font-size="13" fill="#CCCCCC"><tspan fill="#C9594D">data engineering</tspan> — pipelines,</text>
+  <text x="16" y="166" class="mono bio" font-size="13" fill="#CCCCCC">warehouses, all of it.</text>
+  <text x="16" y="190" class="mono bio" font-size="13" fill="#CCCCCC">Obsessed with science. gaming.</text>
+  <text x="16" y="208" class="mono bio" font-size="13" fill="#f8b9b2">If it&#39;s interesting, I&#39;m in.</text>
+  <text x="16" y="232" class="mono bio" font-size="13" fill="#CCCCCC">Also sneaking into frontend &#38; desktop</text>
+  <text x="16" y="250" class="mono bio" font-size="13" fill="#CCCCCC">apps on the side because why not?</text>
+</svg>
