@@ -20,7 +20,7 @@
   <img src="https://github.com/aceumlol/aceumlol/blob/main/assets/PowerBI.png" height="40" width="40" title="PowerBI"/>
 </p>
 
-## 🔭 Currently working on
+## ⚡ What I'm focused on
 
 - Data cleaning, EDA and visualization the right way (not just vibes)
 - Clean SQL — window functions, CTEs, query optimization
