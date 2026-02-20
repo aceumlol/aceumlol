@@ -45,7 +45,7 @@
 **✅ Shipped (with room to grow)**
 
 - **[Collection Site](https://github.com/aceumlol/coll-site)** — Next.js/Tailwind dashboard with an automated pipeline for importing messy sheets into Supabase
-- **[Bookie Audit](#)** — Market efficiency audit of Bet365 Football odds data
+- **[Bookie Audit](https://github.com/aceumlol/bookie-audit)** — Market efficiency audit of Bet365 Football odds data
 - **[LOL Ranked Fatigue](https://github.com/aceumlol/ranked-fatigue-analysis)** — How fatigue and session length affect high-elo League of Legends performance
 
 
